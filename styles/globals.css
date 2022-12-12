@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .navLink {
+        @apply hover:underline p-4 rounded-full hover:scale-110 transition-transform duration-200 ease-out active:underline 
+    }
+}
